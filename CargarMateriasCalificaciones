@@ -1,0 +1,14 @@
+<?php
+require_once("funciones.php");
+$listamaterias=ConsultarLista("Select m.Nombre,Grupos.Nombre from Historialdocente join Docentes on Docentes.id=Historialdocente.Docente_id join Usuarios on Usuarios.id=Docentes.Usuario_id join Materias m on m.id=Historialdocente.Materia_id  join Grupos on Grupos.id=Historialdocente.Grupo_id where Usuarios.id=$usuario_id and Periodos.id=$periodo_id ");
+echo '<div class="input-control select">';
+echo '<select id="periodo">';
+while($periodo=mysql_fetch_array($periodos))
+{
+  $nombreperiodo=$periodo["Nombre"];
+  $idperiodo=$periodo["id"];
+  echo "<option value='$idperiodo'>$nombreperiodo</option>";
+}
+echo "</select>";
+echo '</div>';
+?>

@@ -1,0 +1,542 @@
+<!--
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pasta a Hotels and Restaurants Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pasta Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+      <script>
+            var puntosrojos = 0;
+            var puntosazules = 0;
+            var puntosverdes = 0;
+            var contnotas = 0;
+            var notasbuenas = new Array(10);
+            var notasmalas = new Array(10);
+            notasbuenas[0] = "lo estas haciendo muy bien!";
+            notasbuenas[1] = "te quiero mucho se ve que estás poniendo atención!";
+            notasbuenas[2] = "muy bien tienes mucho futuro!!";
+            notasbuenas[3] = "lo hiciste excelente!!";
+            notasbuenas[4] = "felicidades eres muy lista!!";
+            notasbuenas[5] = "estas ganando mucho dinero!!";
+            notasbuenas[6] = "me encanta que juegues conmigo!!";
+            notasbuenas[7] = "dale un besote a tu madrina no?!!";
+            notasbuenas[8] = "excelente buena respuesta!!";
+            notasbuenas[9] = "ooooooo muy bien!!";
+
+            notasmalas[0] = "perdiste algo de dinero pero te recuperarás!";
+            notasmalas[1] = "no te preocupes concéntrate más!";
+            notasmalas[2] = "piensa mejor tu respuesta!!";
+            notasmalas[3] = "esta bien, sólo pon más atención!!";
+            notasmalas[4] = "si te concentras más ganarás más dinero!!";
+            notasmalas[5] = "sigue jugando y piensa mejor tus respuestas!!";
+            notasmalas[6] = "asegúrate que tu respuesta es correcta antes de responderme!!";
+            notasmalas[7] = "vas a concentrarte mejor verdad :)!!";
+            notasmalas[8] = "te quiero mucho no te pongas triste todos nos equivocamos!!";
+            notasmalas[9] = "sigue adelante no te rindas!!";
+
+            var imagenesbuenas = new Array(10);
+            var imagenesmalas = new Array(10);
+            imagenesbuenas[0] = "<img src='images/7.png'>";
+            imagenesbuenas[1] = "<img src='images/9.png'>";
+            imagenesbuenas[2] = "<img src='images/11.png'>";
+            imagenesbuenas[3] = "<img src='images/13.png'>";
+            imagenesbuenas[4] = "<img src='images/15.png'>";
+            imagenesbuenas[5] = "<img src='images/17.png'>";
+            imagenesbuenas[6] = "<img src='images/18.png'>";
+            imagenesbuenas[7] = "<img src='images/20.png'>";
+            imagenesbuenas[8] = "<img src='images/21.png'>";
+            imagenesbuenas[9] = "<img src='images/7.png'>";
+
+            imagenesmalas[0] = "<img src='images/3.png'>";
+            imagenesmalas[1] = "<img src='images/5.png'>";
+            imagenesmalas[2] = "<img src='images/4.png'>";
+            imagenesmalas[3] = "<img src='images/8.png'>";
+            imagenesmalas[4] = "<img src='images/10.png'>";
+            imagenesmalas[5] = "<img src='images/14.png'>";
+            imagenesmalas[6] = "<img src='images/16.png'>";
+            imagenesmalas[7] = "<img src='images/22.png'>";
+            imagenesmalas[8] = "<img src='images/24.png'>";
+            imagenesmalas[9] = "<img src='images/25.png'>";
+            function NumRandom()
+            {
+                var numrandom = Math.random();
+                var numrandom = Math.round(numrandom * 20 + 15);
+                return numrandom;
+            }
+            function Empezar()
+            {
+                $("#inicio").fadeOut();
+                $("#ejercicios").fadeIn();
+                $(".todosejercicios").fadeOut();
+                $("#primermensaje").html("<br><br><br><br><br>Hola " + $("#nombre").val() + "! Que gusto verte de nuevo<br><br> <span style='color: darkblue'>Selecciona arriba el juego que prefieras</span><br><br><br><img src='images/017.png'><img src='images/018.png'><img src='images/021.png'>");
+                $("#barra").fadeIn();
+            }
+            function obtenernota(tipo)
+            {
+                var nota = "";
+                if (tipo == 1)
+                {
+                    nota = $("#nombre").val() + " " + notasbuenas[contnotas];
+                }
+                else
+                {
+                    nota = $("#nombre").val() + " " + notasmalas[contnotas];
+                }
+                if (contnotas == 9)
+                {
+                    contnotas = 0;
+                }
+                else
+                {
+                    contnotas++;
+                }
+                return nota;
+            }
+            function sumas()
+            {
+                $(".todosejercicios").fadeOut();
+                $("#divsumas").fadeIn();
+                $("#num1suma").html(NumRandom());
+                $("#num2suma").html(NumRandom());
+                $("#respuestasumas").val("");
+                $("#primermensaje").html("Sumas, divertido y fácil!!");
+
+            }
+            function multiplicaciones()
+            {
+                $(".todosejercicios").fadeOut();
+                $("#divmultiplicaciones").fadeIn();
+                $("#num1mul").html(NumRandom());
+                $("#num2mul").html(NumRandom());
+                $("#respuestamul").val("");
+                $("#primermensaje").html("Multiplicaciones, más dinero!!");
+
+            }
+            function verificarsumas()
+            {
+                var num1 = $("#num1suma").html();
+                var num2 = $("#num2suma").html();
+                var resp = $("#respuestasumas").val();
+                var puntos = NumRandom();
+                if (parseInt(num1) + parseInt(num2) == parseInt(resp))
+                {
+                    alert("Felicidades tu respuesta es correcta has ganado " + puntos + " pesos!");
+                    $("#bienvenida").html("<span style='color:green'>" + obtenernota(1) + "</span>");
+                    $(".imagen").html("<br>" + imagenesbuenas[contnotas]);
+                    puntosazules += puntos;
+                    $("#azules").html(" " + puntosazules);
+                    sumas();
+                }
+                else
+                {
+                    alert("Lo siento tu respuesta es incorrecta has perdido " + puntos + " pesos!");
+                    if (puntosazules >= puntos)
+                    {
+                        puntosazules -= puntos;
+                    }
+                    else
+                    {
+                        puntosazules = 0;
+                    }
+                    $("#bienvenida").html("<span style='color:red'>" + obtenernota(0) + "</span>");
+                    $("#azules").html(" " + puntosazules);
+                    $("#respuestasumas").val("");
+                    $(".imagen").html("<br>" + imagenesmalas[contnotas]);
+                }
+            }
+            function verificarmultiplicaciones()
+            {
+                var num1 = $("#num1mul").html();
+                var num2 = $("#num2mul").html();
+                var resp = $("#respuestamul").val();
+                var puntos = NumRandom() + 30;
+                if (parseInt(num1) * parseInt(num2) == parseInt(resp))
+                {
+                    alert("Felicidades tu respuesta es correcta has ganado " + puntos + " pesos!");
+                    $("#bienvenida").html("<span style='color:green'>" + obtenernota(1) + "</span>");
+                    $(".imagen").html("<br>" + imagenesbuenas[contnotas]);
+                    puntosazules += puntos;
+                    $("#azules").html(" " + puntosazules);
+                    multiplicaciones();
+                }
+                else
+                {
+                    alert("Lo siento tu respuesta es incorrecta has perdido " + puntos + " pesos!");
+                    if (puntosazules >= puntos)
+                    {
+                        puntosazules -= puntos;
+                    }
+                    else
+                    {
+                        puntosazules = 0;
+                    }
+                    $("#bienvenida").html("<span style='color:red'>" + obtenernota(0) + "</span>");
+                    $("#azules").html(" " + puntosazules);
+                    $("#respuestamul").val("");
+                    $(".imagen").html("<br>" + imagenesmalas[contnotas]);
+                }
+            }
+            var contpalabra = 0;
+
+            function obtenerpalabra()
+            {
+                var palabra = "palabra" + contpalabra;
+                if (contpalabra == 9) {
+                    contpalabra = 0;
+                }
+                else
+                {
+                    contpalabra++;
+                }
+                return palabra;
+            }
+            function ortografia()
+            {
+                $(".todosejercicios").fadeOut();
+                $("#divortografia").fadeIn();
+                var palabra = obtenerpalabra();
+                $("#palabraorto").html("<img src='images/" + palabra + ".png'>");
+                $("#nombrepalabraorto").html(obtenernombrepalabra(palabra).toUpperCase());
+                $("#respuestaorto").val("");
+                $("#primermensaje").html("Ortografía, siii escribir me gusta!!");
+
+            }
+            function obtenernombrepalabra(palabra)
+            {
+                switch (palabra)
+                {
+                    case "palabra1":
+                        return "calculadora";
+                    case "palabra2":
+                        return "candado";
+                    case "palabra3":
+                        return "celular";
+                    case "palabra4":
+                        return "pinguino";
+                    case "palabra5":
+                        return "casa";
+                    case "palabra6":
+                        return "foco";
+                    case "palabra7":
+                        return "corazon";
+                    case "palabra8":
+                        return "galleta";
+                    case "palabra9":
+                        return "llave";
+                    case "palabra0":
+                        return "reloj";
+                }
+            }
+
+            function verificarortografia()
+            {
+                var palabra = $("#nombrepalabraorto").html();
+
+                var resp = $("#respuestaorto").val().toUpperCase();
+                var puntos = NumRandom();
+
+                if (palabra == resp)
+                {
+                    alert("Felicidades tu respuesta es correcta has ganado " + puntos + " pesos!");
+                    $("#bienvenida").html("<span style='color:green'>" + obtenernota(1) + "</span>");
+                    $(".imagen").html("<br>" + imagenesbuenas[contnotas]);
+                    puntosverdes += puntos;
+                    $("#verdes").html(" " + puntosverdes);
+                    ortografia();
+                }
+                else
+                {
+                    alert("Lo siento tu respuesta es incorrecta has perdido " + puntos + " pesos!");
+                    if (puntosverdes >= puntos)
+                    {
+                        puntosverdes -= puntos;
+                    }
+                    else
+                    {
+                        puntosverdes = 0;
+                    }
+                    $("#bienvenida").html("<span style='color:red'>" + obtenernota(0) + "</span>");
+                    $("#verdes").html(" " + puntosverdes);  
+                    $(".imagen").html("<br>" + imagenesmalas[contnotas]);
+                }
+            }
+            function palabras()
+            {
+                $(".todosejercicios").fadeOut();
+                $("#divpalabras").fadeIn();
+                var palabra = obtenerpalabra();
+                $("#palabra").html(palabra);
+                $("#nombrepalabra").html(obtenernombrepalabra(palabra));
+
+                $("#primermensaje").html("Palabras, que divertido!!");
+
+            }
+            function verificarpalabras(resp)
+            {
+                var palabra = $("#palabra").html();
+
+                var puntos = NumRandom();
+
+                if (palabra == resp)
+                {
+                    alert("Felicidades tu respuesta es correcta has ganado " + puntos + " pesos!");
+                    $("#bienvenida").html("<span style='color:green'>" + obtenernota(1) + "</span>");
+                    $(".imagen").html("<br>" + imagenesbuenas[contnotas]);
+                    puntosverdes += puntos;
+                    $("#verdes").html(" " + puntosverdes);
+                    palabras();
+                }
+                else
+                {
+                    alert("Lo siento tu respuesta es incorrecta has perdido " + puntos + " pesos!");
+                    if (puntosverdes >= puntos)
+                    {
+                        puntosverdes -= puntos;
+                    }
+                    else
+                    {
+                        puntosverdes = 0;
+                    }
+                    $("#bienvenida").html("<span style='color:red'>" + obtenernota(0) + "</span>");
+                    $("#verdes").html(" " + puntosverdes);
+                    $(".imagen").html("<br>" + imagenesmalas[contnotas]);
+                }
+            }
+            var nombresimagenes = new Array(14);
+            var contcolor = 0;
+            function obtenercolor()
+            {
+                var nombreimagen = nombresimagenes[contcolor];
+                if (contcolor == 13)
+                {
+                    contcolor = 0;
+                }
+                else
+                {
+                    contcolor++;
+                }
+                return nombreimagen;
+            }
+            nombresimagenes[0] = "rojo1";
+            nombresimagenes[1] = "naranja1";
+            nombresimagenes[2] = "azul1";
+            nombresimagenes[3] = "verde1";
+            nombresimagenes[4] = "rojo2";
+            nombresimagenes[5] = "azul2";
+
+            nombresimagenes[6] = "verde2";
+            nombresimagenes[7] = "verde3";
+            nombresimagenes[8] = "rojo3";
+            nombresimagenes[9] = "verde4";
+
+            nombresimagenes[10] = "azul3";
+            nombresimagenes[11] = "verde5";
+            nombresimagenes[12] = "rojo4";
+
+            nombresimagenes[13] = "verde6";
+
+            function colores()
+            {
+                $(".todosejercicios").fadeOut();
+                $("#divcolores").fadeIn();
+                var color = obtenercolor();
+                $("#color").html(color);
+                $("#colorimagen").html("<img src='images/" + color + ".png'>");
+
+                $("#primermensaje").html("Colores, me encanta!!");
+
+            }
+            function verificarcolores(resp)
+            {
+                var color = $("#color").html();
+
+                var puntos = NumRandom();
+
+                if (color == resp + "1" || color == resp + "2" || color == resp + "3" || color == resp + "4" || color == resp + "5" || color == resp + "6")
+                {
+                    alert("Felicidades tu respuesta es correcta has ganado " + puntos + " pesos!");
+                    $("#bienvenida").html("<span style='color:green'>" + obtenernota(1) + "</span>");
+                    $(".imagen").html("<br>" + imagenesbuenas[contnotas]);
+                    puntosrojos += puntos;
+                    $("#rojos").html(" " + puntosrojos);
+                    colores();
+                }
+                else
+                {
+                    alert("Lo siento tu respuesta es incorrecta has perdido " + puntos + " pesos!");
+                    if (puntosrojos >= puntos)
+                    {
+                        puntosrojos -= puntos;
+                    }
+                    else
+                    {
+                        puntosrojos = 0;
+                    }
+                    $("#bienvenida").html("<span style='color:red'>" + obtenernota(0) + "</span>");
+                    $("#rojos").html(" " + puntosrojos);
+                    $(".imagen").html("<br>" + imagenesmalas[contnotas]);
+                }
+            }
+        </script>       
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					    <a class="navbar-brand" href="index.html"><span>H</span>ermosas</a>
+					</div>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="hvr-bounce-to-bottom active"><a href="javascript:sumas()">Sumas</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="javascript:multiplicaciones()">Multiplicaciones</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="javascript:palabras()">Palabras</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="javascript:colores()">Colores</a></li>
+							<li class="hvr-bounce-to-bottom"><a href="javascript:ortografia()">Ortografia</a></li>					
+						</ul>
+					</div><!-- /navbar-collapse -->
+				</nav>
+                        </div>
+                </div></div>
+
+<div class="element place-right"><a class="" id="" ><span class="icon-dollar"></span> Lizeth<span id="azules"> 0</span></a></div>
+                <div class="element place-right"><a class="" id="" style="color: green"><span class="icon-dollar"></span> Sofía<span id="verdes"> 0</span></a></div>
+                <div class="element place-right"><a class="" id="" style="color: red"><span class="icon-dollar"></span> Paola<span id="rojos"> 0</span></a></div>
+                <span class="element-divider place-right"></span>
+            </nav>
+        </nav>
+        <br>
+    <center>
+        <div id="inicio">
+            <h1 id="titulo" style="color: darkviolet;font-size: 50px" ><img src="images/008.png"><br> Juegos para princesas hermosas</h1><br>
+            <br>
+            <h3>Escribe tu nombre:</h3><br>     
+            <div class="input-control text span3"><input type="text" id="nombre" style="text-align: center"></div>
+            <br><input type="button" class="button warning large" onclick="Empezar()" value="¡Empezar!">
+        </div>
+        <div id="ejercicios" style="display:none">
+            <h3 id="primermensaje" style="color:green" > </h3>
+            <u><b id="bienvenida" style="color:green" > </u></b><br>
+            <br>
+            <div id="divsumas" class="todosejercicios">
+                <h1><span id="num1suma" style="color: #990099"></span> 
+                    <span class="icon-plus-2" style="color: brown "></span> 
+                    <span id="num2suma" style="color:#ff3300"></span>
+                    = 
+                    <div class="input-control text span1">
+                        <input type="text" style="font-size: large" id="respuestasumas" onchange="verificarsumas()" class="span1">
+                    </div>
+                    <br><br>
+                    <input type="button" onclick="verificarsumas()" value="Verificar!" class="button large primary">
+                    <br><hr><span class="imagen"></span>
+                </h1>
+            </div>
+            <div id="divmultiplicaciones" class="todosejercicios">
+                <h1><span id="num1mul" style="color: #990099"></span> 
+                    <span class="icon-cancel-2" style="color: brown "></span> 
+                    <span id="num2mul" style="color:#ff3300"></span>
+                    = 
+                    <div class="input-control text span1">
+                        <input type="text" style="font-size: large" id="respuestamul" onchange="verificarmultiplicaciones()">
+                    </div><br><br>
+                    <input type="button" onclick="verificarmultiplicaciones()" value="Verificar!" class="button large primary">
+                    <br><hr><span class="imagen"></span>
+                </h1>         
+            </div>
+
+            <div id="divortografia" class="todosejercicios">
+                <h1><span id="nombrepalabraorto" style="color: #990099;"></span> 
+                    <span id="palabraorto" style="color:#ff3300"></span>
+                    = 
+                    <div class="input-control text span2">
+                        <input type="text" style="font-size: large" id="respuestaorto" onchange="verificarortografia()">
+                    </div><br><br>
+                    <input type="button" onclick="verificarortografia()" value="Verificar!" class="button large primary">
+                    <br><hr><span class="imagen"></span>
+                </h1>   
+            </div>
+            <div id="divcolores" class="todosejercicios">
+                <h1>
+                    <span id="color" style="color: #990099;display:none"></span>
+                    <span id="colorimagen"></span>
+                    <br><span class="imagen"></span><br><hr>
+                    <div style="background-color: #0099cc;width:80px;height: 80px;display: inline-block;" onclick="verificarcolores('azul')"></div>
+                    <div style="background-color: orange;width:80px;height: 80px;display: inline-block;" onclick="verificarcolores('naranja')"></div>
+                    <div style="background-color: green;width:80px;height: 80px;display: inline-block;" onclick="verificarcolores('verde')"></div>
+                    <div style="background-color: red;width:80px;height: 80px;display: inline-block;" onclick="verificarcolores('rojo')"></div><br>
+                </h1>   
+            </div>
+            <div id="divpalabras" class="todosejercicios">
+                <h1>
+                    <span id="nombrepalabra" ></span>
+                    <span id="palabra" style="color: #990099;display:none"></span>
+                    <br><span class="imagen"></span><br><hr>
+                    <img src="images/palabra1.png" onclick="verificarpalabras('palabra1')" style="width: 90px;height: 90px">
+                    <img src="images/palabra2.png" onclick="verificarpalabras('palabra2')" style="width: 90px;height: 90px">
+                    <img src="images/palabra3.png" onclick="verificarpalabras('palabra3')" style="width: 90px;height: 90px">
+                    <img src="images/palabra4.png" onclick="verificarpalabras('palabra4')" style="width: 90px;height: 90px">
+                    <img src="images/palabra5.png" onclick="verificarpalabras('palabra5')" style="width: 90px;height: 90px">
+                    <img src="images/palabra6.png" onclick="verificarpalabras('palabra6')" style="width: 90px;height: 90px">
+                    <img src="images/palabra7.png" onclick="verificarpalabras('palabra7')" style="width: 90px;height: 90px">
+                    <img src="images/palabra8.png" onclick="verificarpalabras('palabra8')" style="width: 90px;height: 90px">
+                    <img src="images/palabra9.png" onclick="verificarpalabras('palabra9')" style="width: 90px;height: 90px">
+                    <img src="images/palabra0.png" onclick="verificarpalabras('palabra0')" style="width: 90px;height: 90px">
+
+                </h1>   
+            </div>
+
+
+        </div>
+    </center>
+
+    <br><br>
+    <center>
+
+    </center>
+</body>
+			
+                    
+                    
+		
+	
+<!-- //header -->
+<!-- banner -->
+	
+<!-- //banner -->
+<!-- banner-bottom1 -->
+	
+<!--- //footer --->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
+</body>
+</html>
