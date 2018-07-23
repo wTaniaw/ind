@@ -77,6 +77,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									<a href="#" class="dropdown-toggle effect-3" data-toggle="dropdown">Posgrados <b class="caret"></b></a>
 									<ul class="dropdown-menu" style="font-size: 1.1em;font-weight: 500">
 										<li class=""><a href="md2.php" class="">Maestría en Docencia</a></li>
+										<li class=""><a href="md2l.php" class="">Maestría en Docencia en linea</a></li>
 										<li><a href="mpe2.php">Maestría en Psicología Educativa</a></li>
 										<li><a href="mgpp2.php">Maestría en Gestión de Políticas Públicas</a>
 										</li>
