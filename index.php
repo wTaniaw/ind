@@ -13,10 +13,25 @@ include("header.php");
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Maestría en <span>Docencia</span></h3>
-						<p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
-						<div class="agileits-button top_ban_agile">
-							<a class="btn btn-primary btn-lg" href="md2.php" >Más información »</a>
+						<div style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+							<h3 style="color: white">Maestría en <span>Docencia</span></h3>
+							<p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg" href="md2.php" >Más información »</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item item4">
+				<div class="container">
+					<div class="carousel-caption">
+						<div style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+							<h3>Maestría en <span>Docencia</span> <i> en linea</i></h3>
+							<p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg" href="md2l.php" >Más información »</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -24,21 +39,12 @@ include("header.php");
 			<div class="item item2">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Maestría en <span>Docencia</span> <i> en linea</i></h3>
-						<p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
-						<div class="agileits-button top_ban_agile">
-							<a class="btn btn-primary btn-lg" href="md2l.php" >Más información »</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item item2">
-				<div class="container">
-					<div class="carousel-caption">
-						<h3>Maestría en <span>Psicología</span> Educativa</h3>
-						<p>Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a los docentes para que cuenten con elementos para diagnosticar o desarrollar adecuaciones relacionados con problemas de aprendizaje o de la conducta.</p>
-						<div class="agileits-button top_ban_agile">
-							<a class="btn btn-primary btn-lg" href="mpe2.php" >Más Información »</a>
+						<div style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+							<h3>Maestría en <span>Psicología</span> Educativa</h3>
+							<p>Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a los docentes para que cuenten con elementos para diagnosticar o desarrollar adecuaciones relacionados con problemas de aprendizaje o de la conducta.</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg" href="mpe2.php" >Más Información »</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -46,10 +52,12 @@ include("header.php");
 			<div class="item item3">
 				<div class="container">
 					<div class="carousel-caption">
-						<h3>Maestría  en <span>Gestión</span> de <span>Políticas</span> Públicas</h3>
-						<p>Proveer una formación interdisciplinaria para el diseño, implementación y evaluación de políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado en marco de transparencia y rendición de cuentas a la sociedad.</p>
-						<div class="agileits-button top_ban_agile">
-							<a class="btn btn-primary btn-lg" href="mgpp2.php" >Más Información »</a>
+						<div style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+							<h3>Maestría  en <span>Gestión</span> de <span>Políticas</span> Públicas</h3>
+							<p>Proveer una formación interdisciplinaria para el diseño, implementación y evaluación de políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado en marco de transparencia y rendición de cuentas a la sociedad.</p>
+							<div class="agileits-button top_ban_agile">
+								<a class="btn btn-primary btn-lg" href="mgpp2.php" >Más Información »</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -76,31 +84,66 @@ include("header.php");
 	<div class="agileits-about-btm">
 		<div class="container card" data-aos="flip-left">
 			<div class="w3-flex">
-			<div class="col-md-4 col-sm-4 col-xs-12 ab1">
-				<img src="images/docencia.jpg" width="100%" height="30%">
-				<hr>
-				<h4 class="agileinfo-head">Maestría en Docencia</h4>
-				<h5>Propósito</h5>
-				<p>
-					Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.
-				</p>
-				
-			</div>
-			<div class="col-md-4 col-sm-4 ab1 ">
-				<img src="images/psicologia.jpg" width="100%" height="30%">
-				<hr>
-				<h4 class="agileinfo-head">Maestría en Psicología educativa</h4>
-				<h5>Propósito</h5>
-				<p>Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a los docentes para que cuenten con elementos para diagnosticar, proponer o desarrollar adecuaciones o tratamientos relacionados con problemas de aprendizaje o de la conducta.</p>
-			</div>
-			<div class="col-md-4 col-sm-4 ab1 ">
-			<img src="images/politica.jpg" width="100%" height="30%">
-				<hr>
-				<h4 class="agileinfo-head">Maestría en Gestión de Políticas Públicas</h4>
-				<h5>Propósito</h5>
-				<p>Proveer una formación interdisciplinaria para el diseño, implementación y evaluación de políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado en marco de transparencia y rendición de cuentas a la sociedad.</p>
-			</div>
-			<div class="clearfix"></div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<a href="md2.php">
+						<div style="background-color:#2471A3;padding: 15px" class="sombra">
+							<div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
+								<img src="images/docencia.jpg" width="100%" height="130px">
+								<hr>
+								<h4 class="agileinfo-head" style="color: black">Maestría en Docencia<br><br></h4>
+								<h4>Propósito</h4><br>
+								<p>
+									Formar profesionales de la educación con alto grado de competencia capaces de entender la complejidad de la práctica docente con base en teorías de aprendizaje y mediante el uso de modelos pedagógicos así como de diseñar, ejecutar y evaluar estrategias de enseñanza que impactan de manera favorable el aprendizaje de sus alumnos y su desarrollo socioemocional.<br>
+								</p>
+							</div>
+						</div>	
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<a href="md2l.php">
+						<div style="background-color:#884EA0;padding: 15px" class="sombra">
+							<div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
+								<img src="images/docencia.jpg" width="100%" height="130px">
+								<hr>
+								<h4 class="agileinfo-head" style="color: black">Maestría en Docencia <br><b style="color:orange">¡En linea!</b> </h4>
+								<h4>Propósito</h4><br>
+								<p>
+									Formar profesionales de la educación con alto grado de competencia capaces de entender la complejidad de la práctica docente con base en teorías de aprendizaje y mediante el uso de modelos pedagógicos así como de diseñar, ejecutar y evaluar estrategias de enseñanza que impactan de manera favorable el aprendizaje de sus alumnos y su desarrollo socioemocional.
+								</p>
+							</div>	
+						</div>
+					</a>	
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<a href="mpe2.php">
+						<div style="background-color:#17A589;padding: 15px" class="sombra">
+							<div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
+								<img src="images/psicologia.jpg" width="100%" height="130px">
+								<hr>
+								<h4 class="agileinfo-head" style="color: black">Maestría en Psicología educativa</h4>
+								<h4>Propósito</h4><br>
+								<p>
+									Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a los docentes para que cuenten con elementos para diagnosticar, proponer o desarrollar adecuaciones o tratamientos relacionados con problemas de aprendizaje o de la conducta.<br><br><br><br><br>
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 col-sm-3 col-xs-12">
+					<a href="mgpp2.php">
+						<div style="background-color:#EC7063;padding: 15px" class="sombra">
+							<div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
+								<img src="images/politica.jpg" width="100%" height="130px">
+								<hr>
+								<h4 class="agileinfo-head" style="color: black">Maestría en Gestión de Políticas Públicas</h4>
+								<h4>Propósito</h4><br>
+								<p>
+									Proveer una formación interdisciplinaria para el diseño, implementación y evaluación de políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado en marco de transparencia y rendición de cuentas a la sociedad.<br><br><br><br><br>
+								</p>
+							</div>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -169,16 +212,20 @@ include("header.php");
 			</div>
 			<div class="col-md-4">
 				<div class="grid1">
-					<i class="fa fa-bookmark-o" aria-hidden="true"></i>
-					<h4>Sesiones Sabatinas</h4>
+					<a href="http://www.copeems.mx/o-a-e/catalogo">
+					<i class="fa fa-check" aria-hidden="true"></i>
+					<h4>Registro COPEEMS</h4>
 					<p> </p>
+				</a>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="grid1">
+					<a href="http://seech.gob.mx/estadistica/descarga/dircct/superior.htm">
 					<i class="fa fa-globe" aria-hidden="true"></i>
-					<h4>Alcance Nacional</h4>
+					<h4>Centro de Trabajo<br>CCT 08PSU5015O</h4>
 					<p></p>
+				</a>
 				</div>
 			</div>
 			<div class="clearfix"></div>
@@ -190,7 +237,7 @@ include("header.php");
 	<div class="feedback section-w3ls about-w3ls" id="testimonials" >
 		<div class="feedback-agileinfo">
 			<div class="container" data-aos="fade-left">
-				<h3 class="heading-agileinfo" style="color:white">Testimonios<span class="ttt">El acceso a la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de mi preparación !! </span></h3>
+				<h3 class="heading-agileinfo" style="color:black">Testimonios<span class="ttt" style="color:black">El acceso a la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de mi preparación !! </span></h3>
 				<div class="agileits-feedback-grids">
 					<div id="owl-demo" class="owl-carousel owl-theme">
 						<div class="item">
@@ -207,7 +254,7 @@ include("header.php");
 									</div>
 									<div class="feedback-img-info">
 										<h5></h5>
-										<p>Docencia; área competencias profesionales.</p>
+										<p style="color:white">Docencia; área competencias profesionales.</p>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -228,7 +275,7 @@ include("header.php");
 									</div>
 									<div class="feedback-img-info">
 										<h5></h5>
-										<p>Psicología educativa</p>
+										<p style="color:white">Psicología educativa</p>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
@@ -249,7 +296,7 @@ include("header.php");
 									</div>
 									<div class="feedback-img-info">
 										<h5></h5>
-										<p>Gestión de políticas públicas</p>
+										<p style="color:white">Gestión de políticas públicas</p>
 									</div>
 									<div class="clearfix"> </div>
 								</div>
