@@ -60,7 +60,18 @@ label {
 	margin: 0;
 }
 
-
+.purple{
+	color:#6C3483;
+}
+.blue{
+	color: #85C1E9;
+}
+.green{
+	color:#76D7C4;
+}
+.orange{
+	color:#F8C471;
+}
 /*-- header --*/
 
 .w3l_header_left{
@@ -541,7 +552,7 @@ label {
 	background-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%), linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
 }
 .carousel-indicators {
-	bottom: 20%;
+	bottom: 5%;
 	left: 50%;
 }
 
@@ -760,7 +771,7 @@ h4.agileinfo-head {
     text-transform: capitalize;
     font-weight: 300;
     margin: 0.7em 0;
-    font-size: 1.8em;
+    font-size: 1.7em;
     text-align: center;
 }
 
@@ -822,7 +833,34 @@ h4.agileinfo-head {
     background-attachment: fixed;
     padding: 5em 0;
 }
-
+.proposito {
+     text-align: center;
+   background: url(../images/proposito.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0;
+}
+.plandocencia {
+     text-align: center;
+   background: url(../images/g9.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    padding: 5em 0;
+}
+.textura1 {
+    text-align: center;
+   background: url(../images/textura1.png);
+    background-repeat: round;
+    padding: 3em 0;
+}
 .agile_inner_info_stats {
     margin-top: 2em;
 }

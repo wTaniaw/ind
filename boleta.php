@@ -145,9 +145,9 @@ $pdf->SetXY(10, 241);
 $pdf->SetFont('Times', '', 10);
 $pdf->Cell(200, 6, '____________________________________', 0, 0, 'C');
 $pdf->Ln(6);
-$pdf->Cell(200, 6, utf8_decode('LA DIRECTORA'), 0, 0, 'C');
+$pdf->Cell(200, 6, utf8_decode('DIRECTORA'), 0, 0, 'C');
 $pdf->Ln(6);
-$pdf->Cell(200, 6, utf8_decode('VELIA ESPERANZA TERRAZAS BACA'), 0, 0, 'C');
+$pdf->Cell(200, 6, utf8_decode('M.E. VELIA ESPERANZA TERRAZAS BACA'), 0, 0, 'C');
 
 $pdf->Output();
 ?>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 ob_start();
 
@@ -66,14 +66,10 @@ $id=$alumno['id'];
     </script>
   <center>
     <div id="respuesta"><img src="<?php echo "fotos/".$usuario_id.".jpg"; ?>" width="250px" height="250px" onerror="this.src='/img/Administrator.png';"></div><br>
- <form method="post" id="formulario" enctype="multipart/form-data">
-    <div class="input-control file" data-role="input">
-    <input type="file" name="file">
-    <input type="hidden" value="<?php echo $usuario_id; ?>" name="usuario_id">
-    <button class="button"><span class="mif-folder"></span></button>
-</div>
+
+   
 <center><input type="button" value="Cambiar contraseña" class="button sombra text-shadow success" onclick="Ventana('CambiarContrasena.php');"></center>
- </form>
+
           <br></center>
         </td>
         <td>

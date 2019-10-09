@@ -347,3 +347,258 @@ Stack trace:
 [15-Jun-2018 22:30:55 UTC] PHP Notice:  Use of undefined constant correcto - assumed 'correcto' in /home/iineed/public_html/Guardar.php on line 809
 [15-Jun-2018 22:30:55 UTC] PHP Notice:  Use of undefined constant correcto - assumed 'correcto' in /home/iineed/public_html/Guardar.php on line 809
 [15-Jun-2018 22:30:55 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[30-Jun-2018 15:48:17 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:48:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:48:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:48:22 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:48:22 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:48:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:48:56 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:48:56 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:48:56 UTC] PHP Notice:  Undefined index: pass in /home/iineed/public_html/ValidarUsuario.php on line 6
+[30-Jun-2018 15:48:56 UTC] PHP Notice:  Undefined variable: usuario in /home/iineed/public_html/ValidarUsuario.php on line 8
+[30-Jun-2018 15:48:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:49:07 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:49:07 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:49:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:49:31 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:49:31 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:49:31 UTC] PHP Notice:  Undefined index: pass in /home/iineed/public_html/ValidarUsuario.php on line 6
+[30-Jun-2018 15:49:31 UTC] PHP Notice:  Undefined variable: usuario in /home/iineed/public_html/ValidarUsuario.php on line 8
+[30-Jun-2018 15:49:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:49:59 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:49:59 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:49:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:50:05 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:50:05 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:50:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:50:17 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:50:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:50:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:52:41 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:52:41 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:52:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:52:58 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:52:58 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:52:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:53:37 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:53:37 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 15:53:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 15:59:55 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:59:55 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 15:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:00:04 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:00:04 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:00:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:13:23 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_92e83950629e8220a77d187178c1775a, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:13:23 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:13:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:13:27 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_92e83950629e8220a77d187178c1775a, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:13:27 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:14:19 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:19 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:14:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/RegistroAspirante.php(128): conectar()
+#1 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:14:40 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:14:49 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:14:49 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:14:57 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:57 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:14:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:15:02 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:15:02 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:15:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:15:20 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:15:20 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:15:25 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:15:25 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:17:40 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:17:40 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:17:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:18:13 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:18:13 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/sistema.php on line 3
+[30-Jun-2018 16:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(70): conectar()
+#1 /home/iineed/public_html/sistema.php(180): ConsultarLista('Select * from P...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:18:17 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:18:17 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:18:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:5
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 5
+[30-Jun-2018 16:21:53 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:21:53 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:21:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:4
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(77): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 4
+[30-Jun-2018 16:24:14 UTC] PHP Warning:  session_start(): open(/opt/alt/php72/var/lib/php/session/sess_0d0803ff4929cb4769f06b9a6ee302e1, O_RDWR) failed: No such file or directory (2) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:24:14 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php72/var/lib/php/session) in /home/iineed/public_html/ValidarUsuario.php on line 2
+[30-Jun-2018 16:24:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/iineed/public_html/funciones.php:7
+Stack trace:
+#0 /home/iineed/public_html/funciones.php(80): conectar()
+#1 /home/iineed/public_html/ValidarUsuario.php(8): ConsultarRegistro('select count(*)...')
+#2 {main}
+  thrown in /home/iineed/public_html/funciones.php on line 7
+[30-Jun-2018 16:27:37 UTC] PHP Notice:  Undefined index: pass in /home/iineed/public_html/ValidarUsuario.php on line 6
+[30-Jun-2018 16:27:37 UTC] PHP Notice:  Undefined variable: usuario in /home/iineed/public_html/ValidarUsuario.php on line 8
+[30-Jun-2018 17:49:47 UTC] PHP Notice:  Undefined index: pass in /home/iineed/public_html/ValidarUsuario.php on line 6
+[03-Jul-2018 23:41:36 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[03-Jul-2018 23:45:42 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[03-Jul-2018 23:48:10 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[12-Jul-2018 19:59:27 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[12-Jul-2018 20:03:19 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[27-Jul-2018 16:02:37 UTC] PHP Notice:  Undefined index: usuario in /home/iineed/public_html/Alumno.php on line 8
+[27-Jul-2018 16:02:37 UTC] PHP Notice:  Undefined index: tipo in /home/iineed/public_html/Alumno.php on line 9
+[27-Jul-2018 16:02:37 UTC] PHP Notice:  Undefined index: alumno in /home/iineed/public_html/Alumno.php on line 10
+[27-Jul-2018 16:02:37 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Alumno.php on line 11
+[30-Jul-2018 22:02:31 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[08-Aug-2018 22:34:45 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[08-Aug-2018 22:38:02 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[19-Aug-2018 18:25:33 UTC] PHP Notice:  Undefined index: usuario in /home/iineed/public_html/Alumno.php on line 8
+[19-Aug-2018 18:25:33 UTC] PHP Notice:  Undefined index: tipo in /home/iineed/public_html/Alumno.php on line 9
+[19-Aug-2018 18:25:33 UTC] PHP Notice:  Undefined index: alumno in /home/iineed/public_html/Alumno.php on line 10
+[19-Aug-2018 18:25:33 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Alumno.php on line 11
+[23-Aug-2018 19:59:54 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:05:28 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:33:00 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:34:04 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:37:44 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:40:41 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:42:43 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[23-Aug-2018 20:45:20 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[31-Aug-2018 22:06:13 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[31-Aug-2018 22:12:20 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
+[31-Aug-2018 22:12:35 UTC] PHP Notice:  Undefined index: usuario_id in /home/iineed/public_html/Expediente.php on line 6
