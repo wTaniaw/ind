@@ -12,7 +12,10 @@ body {
 	background: #fff;
 	font-family: 'Muli', sans-serif;
 }
-
+p {
+font-size: .7em;
+font-weight: 300;
+}
 body a {
 	text-decoration: none;
 	transition: 0.5s all;
@@ -871,7 +874,7 @@ span.ttt {
 /*-- //stats --*/
 /*-- feedback --*/ 
 .feedback {
-  background: url(../images/banner3.jpg) no-repeat center fixed;
+  background: url(../images/g11.jpg) no-repeat center fixed;
   background-size: cover;
   padding:5em 0;
 }
@@ -965,6 +968,11 @@ span.ttt {
 	-webkit-box-shadow:0px 1px 8px 0px rgba(158, 158, 158, 0.75);
 	-moz-box-shadow:0px 1px 8px 0px rgba(158, 158, 158, 0.75);
 	box-shadow:0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+}
+.sombra {
+    text-align: justify;
+    padding: 25px 25px;
+    box-shadow: 2px 2px 10px gray;
 }
 .grid1:hover {
     background: #12ccc3;

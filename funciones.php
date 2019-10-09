@@ -1,8 +1,11 @@
-<?php
+﻿<?php
 //error_reporting(E_ERROR | E_WARNING | E_PARSE);
+//error_reporting(-1); //Muestra todos los errores
+error_reporting(0); //No muestra ningún error
+
 	function conectar(){
-//$res=mysql_connect("107.180.56.151","iineedsistema","Sistema1");
-$res=mysql_connect("localhost","iineedsistema","Sistema1");
+$res=mysql_connect("107.180.56.151","iineedsistema","Sistema1");
+//$res=mysql_connect("localhost","iineedsistema","Sistema1");
 //$res=mysql_connect("localhost","root","root");
     mysql_select_db('iineed');
     mysql_query("SET NAMES 'utf8'");
