@@ -11,6 +11,7 @@ $(document).ready(function(){
             <tr>
               <th>Matrícula</th>
               <th>Nombre</th>
+              <th>CURP</th>
               <th>Grupo</th>
               <th>Carrera</th>
               <th>Universidad</th>
@@ -36,6 +37,7 @@ $(document).ready(function(){
           echo "<tr>";
           echo "<td>".$alumno["Matricula"]."</td>";
           echo "<td>".$alumno["Nombre"]." ".$alumno["ApellidoP"]." ".$alumno["ApellidoM"]."</td>";
+          echo "<td>".$alumno["CURP"]."</td>";
           echo "<td>".$alumno["NombreGrupo"]."</td>";
           echo "<td>".$alumno["NombreCarrera"]."</td>";
           echo "<td>".$alumno["NombreUniversidad"]."</td>";
