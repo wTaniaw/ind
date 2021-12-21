@@ -2,7 +2,7 @@
 include("header.php");  
 ?>
 <!-- banner -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-aos="flip-up">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" data-aos="fade-up">
 		<!-- Indicators -->
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active " ></li>
@@ -13,7 +13,7 @@ include("header.php");
 			<div class="item active">
 				<div class="container">
 					<div class="carousel-caption">
-						<div style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+						<div style="background-color: black;opacity: .6;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
 							<h3 style="color: white">Maestría en <span>Docencia</span></h3>
 							<p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
 							<div class="agileits-button top_ban_agile">
@@ -177,7 +177,7 @@ include("header.php");
 	<!-- services -->
 <div class="services" >
 		<h3 class="heading-agileinfo">¿Qué Ofrecemos?<span>El acceso a la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de mi preparación !! </span></h3>
-	<div class="container" data-aos="fade-left">
+	<div class="container" data-aos="flip-right">
 		<div class="services-top-grids">
 			<div class="col-md-4">
 				<div class="grid1">
@@ -316,16 +316,28 @@ include("header.php");
 				<div class="news-w3row"> 
 					<div class="wthree-news-grids">
 						<div class="col-md-5 col-xs-5 datew3-agileits">
-							<img src="images/g7.jpg" class="img-responsive" alt=""/>
+							<img src="images/noticia1.jpg" class="img-responsive" alt=""/>
 						</div>
 						<div class="col-md-7 col-xs-7 datew3-agileits-info ">
-							<h5><a href="#" data-toggle="modal" data-target="#myModal">Inscripciones Abiertas</a></h5>
+							<h5><a href="#" data-toggle="modal" data-target="#">Felicitaciones</a></h5>
 							<h6>3/03/2018</h6>
-							<p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
+							<p>Generación 2015-2016</p>
 						</div>
 						<div class="clearfix"> </div>
 					</div>
+					
 					<div class="wthree-news-grids news-grids-mdl">
+						<div class="col-md-5 col-xs-5 datew3-agileits datew3-agileits-fltrt">
+							<img src="images/noticia2.png" class="img-responsive" alt=""/>
+						</div>
+						<div class="col-md-7 col-xs-7 datew3-agileits-info datew3-agileits-info-fltlft">
+							<h5><a href="#" data-toggle="modal" data-target="#myModal">10 Aniversario</a></h5>
+							<h6>2008-2018</h6>
+							<p>10 Años formando profesionales.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<!-- <div class="wthree-news-grids news-grids-mdl">
 						<div class="col-md-5 col-xs-5 datew3-agileits datew3-agileits-fltrt">
 							<img src="images/g10.jpg" class="img-responsive" alt=""/>
 						</div>
@@ -335,7 +347,7 @@ include("header.php");
 							<p>Proin euismod vehicula vestibulum. Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.Fusce ullamcorper aliquet dolor id egestas. Nulla leo purus, facilisis non cursus ut, egestas sed ipsum.</p>
 						</div>
 						<div class="clearfix"> </div>
-					</div>
+					</div> -->
 					<div class="clearfix"> </div>
 				</div>
 			</div>
