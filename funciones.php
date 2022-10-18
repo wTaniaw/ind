@@ -1,12 +1,12 @@
 ﻿<?php
 //error_reporting(E_ERROR | E_PARSE);
 //error_reporting(-1); //Muestra todos los errores
-error_reporting(0); //No muestra ningún error
+error_reporting(1); //No muestra ningún error
 
 function conectar()
 {
-	//$res = mysql_connect("localhost", "root", "root");
-	$res = mysql_connect("localhost", "iineedsistema", "Sistema1");
+	$res = mysql_connect("localhost:3307", "root", "");
+	//$res = mysql_connect("localhost", "iineedsistema", "Sistema1");
 	//$res=mysql_connect("localhost","root","root");
 	mysql_select_db('iineed');
 	mysql_query("SET NAMES 'utf8'");
