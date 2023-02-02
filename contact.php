@@ -78,8 +78,10 @@ include("header.php");
 <!-- /map -->
 <div class="map">
     <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.8742007389997!2d-106.08937488454549!3d28.633532190785747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea434a63b709ed%3A0x8403758d73825e53!2sDe+Lomita%2C+31205+Chihuahua%2C+Chih.!5e0!3m2!1ses!2smx!4v1520994118140"
-        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.196857205904!2d-106.08365829947508!3d28.623861552791016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ea5cb6c1dacf69%3A0x269dabb81eb0963b!2sC.%20Ernesto%20Talavera%201208%2C%20Zarco%2C%2031020%20Chihuahua%2C%20Chih.!5e0!3m2!1ses!2smx!4v1675374151153!5m2!1ses!2smx"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </div>
 <!-- //map -->
 
