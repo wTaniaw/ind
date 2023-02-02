@@ -14,7 +14,7 @@ include("header.php");
             <div class="container">
                 <div class="carousel-caption">
                     <div
-                        style="background-color: black;opacity: .6;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+                        style="background-color: black;opacity: .85;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
                         <h3 style="color: white">Maestría en <span>Docencia</span></h3>
                         <p>Obtener herramientas y técnicas para diseñar e implementar secuencias y planeaciones
                             didácticas basadas en competencias, centradas en el alumno y el aprendizaje.</p>
@@ -29,7 +29,7 @@ include("header.php");
             <div class="container">
                 <div class="carousel-caption">
                     <div
-                        style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+                        style="background-color: black;opacity: .85;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
                         <h3>Maestría en <span>Psicología</span> Educativa</h3>
                         <p>Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a los
                             docentes para que cuenten con elementos para diagnosticar o desarrollar adecuaciones
@@ -45,7 +45,7 @@ include("header.php");
             <div class="container">
                 <div class="carousel-caption">
                     <div
-                        style="background-color: black;opacity: .7;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
+                        style="background-color: black;opacity: .85;width: 95%;color: white;margin-left: 2.5%;padding-top: 30px;padding-bottom: 20px">
                         <h3>Maestría en <span>Gestión</span> de <span>Políticas</span> Públicas</h3>
                         <p>Proveer una formación interdisciplinaria para el diseño, implementación y evaluación de
                             políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado
@@ -85,7 +85,7 @@ include("header.php");
                     <div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
                         <img src="images/docencia.jpg" width="100%" height="130px">
                         <hr>
-                        <h4 class="agileinfo-head" style="color: black">Maestría en Docencia<br><br></h4>
+                        <h4 class="agileinfo-head" style="color: white">Maestría en Docencia<br><br></h4>
                         <h4>Propósito</h4><br>
                         <p>
                             Formar profesionales de la educación con alto grado de competencia capaces de entender
@@ -124,7 +124,7 @@ include("header.php");
                         <div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
                             <img src="images/psicologia.jpg" width="100%" height="130px">
                             <hr>
-                            <h4 class="agileinfo-head" style="color: black">Maestría en Psicología educativa</h4>
+                            <h4 class="agileinfo-head" style="color: white">Maestría en Psicología educativa</h4>
                             <h4>Propósito</h4><br>
                             <p>
                                 Favorecer la creación de culturas inclusivas en las instituciones educativas. Facultar a
@@ -142,7 +142,7 @@ include("header.php");
                         <div style="background-color:rgba(23, 32, 42,0.4);color:white;padding: 15px">
                             <img src="images/politica.jpg" width="100%" height="130px">
                             <hr>
-                            <h4 class="agileinfo-head" style="color: black">Maestría en Gestión de Políticas Públicas
+                            <h4 class="agileinfo-head" style="color: white">Maestría en Gestión de Políticas Públicas
                             </h4>
                             <h4>Propósito</h4><br>
                             <p>
@@ -158,182 +158,181 @@ include("header.php");
         </div>
     </div>
 
-    <div class="container card" data-aos="flip-left">
-        <div class="w3-flex">
-            <div class="col-md-3 col-sm-3 col-xs-12">
-                <div class="container">
-                    <h3 class="heading-agileinfo" style="color:white">Nuestras estadísticas<span class="ttt">El acceso a
-                            la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de mi
-                            preparación !! </span></h3>
-                    <div class="col-md-4 w3layouts_stats_left w3_counter_grid">
-                        <span class="fa fa-graduation-cap" aria-hidden="true"></span>
-                        <h3 style="color:white">Egresados</h3>
-                        <p class="counter">380</p>
 
+    <!-- //stats -->
+    <br>
+    <!-- feedback -->
+    <div class="feedback section-w3ls about-w3ls" id="testimonials">
+        <div class="feedback-agileinfo">
+            <div class="container" data-aos="fade-left">
+                <h3 class="heading-agileinfo" style="color:white">Testimonios<span class="ttt" style="color:white">El
+                        acceso
+                        a la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de
+                        mi
+                        preparación !! </span></h3>
+                <div class="agileits-feedback-grids">
+                    <div id="owl-demo" class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="feedback-info">
+                                <div class="feedback-top">
+                                    <p> Yo egresé de la maestría en Docencia; área competencias profesionales.
+                                    </p><br>
+                                    <p> Aprendí a seleccionar y utilizar nuevas técnicas didácticas para
+                                        favorecer el
+                                        desarrollo de competencias.</p><br>
+                                    <p> Conocí distintos modelos de aprendizaje centrados en el alumno como el
+                                        aprendizaje
+                                        por proyectos, por problemas y por casos.</p><br>
+                                    <p> Me preparé para los exámenes de ingreso y permanencia en el servicio
+                                        profesional
+                                        docente.</p><br>
+                                </div>
+                                <div class="feedback-grids">
+                                    <div class="feedback-img">
+                                        <img src="images/test1.jpg" alt="" />
+                                    </div>
+                                    <div class="feedback-img-info">
+                                        <h5></h5>
+                                        <p style="color:white">Docencia; área competencias profesionales.</p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="feedback-info">
+                                <div class="feedback-top">
+                                    <p> Yo egresé de la maestría en psicología educativa. </p><br>
+                                    <p> Adquirí nuevos conocimientos. </p><br>
+                                    <p> Aprendí nuevas técnicas y estrategias didácticas. </p><br>
+                                    <p> Modifiqué mis creencias y valores acerca de la inclusión e integración
+                                        educativa.
+                                    </p><br>
+                                    <p> Aprendí a elaborar planeaciones didácticas con adecuaciones
+                                        curriculares.</p><br>
+                                </div>
+                                <div class="feedback-grids">
+                                    <div class="feedback-img">
+                                        <img src="images/test3.jpg" alt="" />
+                                    </div>
+                                    <div class="feedback-img-info">
+                                        <h5></h5>
+                                        <p style="color:white">Psicología educativa</p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="feedback-info">
+                                <div class="feedback-top">
+                                    <p> Yo egresé de la maestría en gestión de políticas públicas!!!</p><br>
+                                    <p> Desarrollé aptitud para el diseño e instrumentación de polítucas
+                                        públicas</p><br>
+                                    <p> Aprendí a planear y coordinar programas sociales.</p><br>
+                                    <p> Tengo la capacidad para planificar, implantar, evaluar y analizar
+                                        políticas
+                                        públicas.</p><br>
+                                    <p>Tengo la habilidad para participar y liderar activamente grupos de
+                                        trabajo.</p><br>
+                                </div>
+                                <div class="feedback-grids">
+                                    <div class="feedback-img">
+                                        <img src="images/test2.jpg" alt="" />
+                                    </div>
+                                    <div class="feedback-img-info">
+                                        <h5></h5>
+                                        <p style="color:white">Gestión de políticas públicas</p>
+                                    </div>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 w3layouts_stats_left w3_counter_grid1">
-                        <span class="fa fa-user" aria-hidden="true"></span>
-                        <h3 style="color:white">Titulados</h3>
-                        <p class="counter">180</p>
-
-                    </div>
-                    <div class="col-md-4 w3layouts_stats_left w3_counter_grid2">
-                        <span class="fa fa-users" aria-hidden="true"></span>
-                        <h3 style="color:white">Generaciones</h3>
-                        <p class="counter">17</p>
-
-                    </div>
-                    <div class="clearfix"> </div>
                 </div>
             </div>
-            <!-- //stats -->
-
-            <!-- feedback -->
-            <div class="feedback section-w3ls about-w3ls" id="testimonials">
-                <div class="feedback-agileinfo">
-                    <div class="container" data-aos="fade-left">
-                        <h3 class="heading-agileinfo" style="color:black">Testimonios<span class="ttt"
-                                style="color:black">El acceso
-                                a la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de
-                                mi
+        </div>
+    </div>
+    <br>
+    <!-- //feedback -->
+    <div class="" style="background-color:gray">
+        <div class="container card" data-aos="flip-left">
+            <div class="w3-flex">
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                    <div class="container">
+                        <h3 class="heading-agileinfo" style="color:white">Nuestras estadísticas<span class="ttt">El
+                                acceso a
+                                la docencia y las oportunidades de ser promovido y recibir reconocimiento dependen de mi
                                 preparación !! </span></h3>
-                        <div class="agileits-feedback-grids">
-                            <div id="owl-demo" class="owl-carousel owl-theme">
-                                <div class="item">
-                                    <div class="feedback-info">
-                                        <div class="feedback-top">
-                                            <p> Yo egresé de la maestría en Docencia; área competencias profesionales.
-                                            </p><br>
-                                            <p> Aprendí a seleccionar y utilizar nuevas técnicas didácticas para
-                                                favorecer el
-                                                desarrollo de competencias.</p><br>
-                                            <p> Conocí distintos modelos de aprendizaje centrados en el alumno como el
-                                                aprendizaje
-                                                por proyectos, por problemas y por casos.</p><br>
-                                            <p> Me preparé para los exámenes de ingreso y permanencia en el servicio
-                                                profesional
-                                                docente.</p><br>
-                                        </div>
-                                        <div class="feedback-grids">
-                                            <div class="feedback-img">
-                                                <img src="images/test1.jpg" alt="" />
-                                            </div>
-                                            <div class="feedback-img-info">
-                                                <h5></h5>
-                                                <p style="color:white">Docencia; área competencias profesionales.</p>
-                                            </div>
-                                            <div class="clearfix"> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="feedback-info">
-                                        <div class="feedback-top">
-                                            <p> Yo egresé de la maestría en psicología educativa. </p><br>
-                                            <p> Adquirí nuevos conocimientos. </p><br>
-                                            <p> Aprendí nuevas técnicas y estrategias didácticas. </p><br>
-                                            <p> Modifiqué mis creencias y valores acerca de la inclusión e integración
-                                                educativa.
-                                            </p><br>
-                                            <p> Aprendí a elaborar planeaciones didácticas con adecuaciones
-                                                curriculares.</p><br>
-                                        </div>
-                                        <div class="feedback-grids">
-                                            <div class="feedback-img">
-                                                <img src="images/test3.jpg" alt="" />
-                                            </div>
-                                            <div class="feedback-img-info">
-                                                <h5></h5>
-                                                <p style="color:white">Psicología educativa</p>
-                                            </div>
-                                            <div class="clearfix"> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="feedback-info">
-                                        <div class="feedback-top">
-                                            <p> Yo egresé de la maestría en gestión de políticas públicas!!!</p><br>
-                                            <p> Desarrollé aptitud para el diseño e instrumentación de polítucas
-                                                públicas</p><br>
-                                            <p> Aprendí a planear y coordinar programas sociales.</p><br>
-                                            <p> Tengo la capacidad para planificar, implantar, evaluar y analizar
-                                                políticas
-                                                públicas.</p><br>
-                                            <p>Tengo la habilidad para participar y liderar activamente grupos de
-                                                trabajo.</p><br>
-                                        </div>
-                                        <div class="feedback-grids">
-                                            <div class="feedback-img">
-                                                <img src="images/test2.jpg" alt="" />
-                                            </div>
-                                            <div class="feedback-img-info">
-                                                <h5></h5>
-                                                <p style="color:white">Gestión de políticas públicas</p>
-                                            </div>
-                                            <div class="clearfix"> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-md-4 w3layouts_stats_left w3_counter_grid">
+                            <span class="fa fa-graduation-cap" aria-hidden="true"></span>
+                            <h3 style="color:white">Egresados</h3>
+                            <p class="counter">380</p>
+
                         </div>
+                        <div class="col-md-4 w3layouts_stats_left w3_counter_grid1">
+                            <span class="fa fa-user" aria-hidden="true"></span>
+                            <h3 style="color:white">Titulados</h3>
+                            <p class="counter">180</p>
+
+                        </div>
+                        <div class="col-md-4 w3layouts_stats_left w3_counter_grid2">
+                            <span class="fa fa-users" aria-hidden="true"></span>
+                            <h3 style="color:white">Generaciones</h3>
+                            <p class="counter">17</p>
+
+                        </div>
+                        <div class="clearfix"> </div>
                     </div>
                 </div>
             </div>
-            <!-- //feedback -->
-            <!-- services -->
-            <div class="services">
-                <h3 class="heading-agileinfo">¿Qué Ofrecemos?<span>El acceso a la docencia y las oportunidades de ser
-                        promovido y
-                        recibir reconocimiento dependen de mi preparación !! </span></h3>
-                <div class="container" data-aos="flip-right">
-                    <div class="services-top-grids">
-                        <div class="col-md-4">
-                            <div class="grid1">
-                                <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                                <h4>Programas Tetramestrales</h4>
-                                <p> </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="grid1">
-                                <i class="fa fa-book" aria-hidden="true"></i>
-                                <h4>Educación Profesional</h4>
-                                <p> </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="grid1">
-                                <i class="fa fa-tasks" aria-hidden="true"></i>
-                                <h4>Atención Personalizada</h4>
-                                <p> </p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="services-bottom-grids">
-                        <div class="col-md-4">
-                            <div class="grid1">
-                                <i class="fa fa-comment-o" aria-hidden="true"></i>
-                                <h4>Profesores Capacitados</h4>
-                                <p></p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="grid1">
-                                <a href="http://seech.gob.mx/estadistica/descarga/dircct/superior.htm">
-                                    <i class="fa fa-globe" aria-hidden="true"></i>
-                                    <h4>Centro de Trabajo<br>CCT 08PSU5015O</h4>
-                                    <p></p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div class="services">
+        <h3 class="heading-agileinfo">¿Qué Ofrecemos?<span>El acceso a la docencia y las oportunidades de ser
+                promovido y
+                recibir reconocimiento dependen de mi preparación !! </span></h3>
+        <div class="container" data-aos="flip-right">
+            <div class="services-top-grids">
+                <div class="col-md-3">
+                    <div class="grid1" style="background-color:#2471A3">
+                        <i class="fa fa-book" aria-hidden="true" style="color:white"></i>
+                        <h4 style="color:white">Educación Profesional</h4>
+                        <p> </p>
                     </div>
                 </div>
+                <div class="col-md-3">
+                    <div class="grid1" style="background-color:#EC7063">
+                        <i class="fa fa-tasks" aria-hidden="true" style="color:white"></i>
+                        <h4 style="color:white">Atención Personalizada</h4>
+                        <p> </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="grid1" style="background-color:#FF8602">
+                        <i class="fa fa-comment-o" aria-hidden="true" style="color:white"></i>
+                        <h4 style="color:white">Profesores Capacitados</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="grid1" style="background-color:#141415">
+                        <a href="http://seech.gob.mx/estadistica/descarga/dircct/superior.htm">
+                            <i class="fa fa-globe" aria-hidden="true" style="color:white"></i>
+                            <h4 style="color:white">Centro Trabajo<br>CCT 08PSU5015O</h4>
+                            <p></p>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <!-- //services -->
-            <!-- news -->
+        </div>
+    </div>
+    <!-- //services -->
+    <!-- news 
             <div class="" style="background-color:darkgrey;">
                 <div class="container aos-init aos-animate" data-aos="fade-right">
                     <h2 class="heading-agileinfo" style="color:white">Eventos<span>El acceso a la docencia y las
@@ -378,13 +377,13 @@ include("header.php");
 						</div>
 						<div class="clearfix"> </div>
 					</div> -->
-                            <div class="clearfix"> </div>
-                        </div>
-                    </div>
-                </div>
-                <br><br>
-            </div>
-            <!-- //news -->
-            <?php
+
+</div>
+</div>
+</div>
+
+</div>
+<!-- //news -->
+<?php
 include("footer.php");
 ?>
