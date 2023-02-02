@@ -22,6 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link rel="stylesheet" href="css/owl.theme.css" type="text/css" media="all">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" type="image/png" href="images/logo3.png">
     <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
     <script>
