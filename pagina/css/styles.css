@@ -1,0 +1,51 @@
+.p-1{
+    padding: 5px 5px !important;
+}
+.p-2{
+    padding: 10px 10px !important;
+}
+.p-3{
+    padding: 15px 15px !important;
+}
+.p-4{
+    padding: 20px 20px !important;
+}
+.m-1{
+    margin: 5px 5px;
+}
+.m-2{
+    margin: 10px 10px;
+}
+.m-3{
+    margin: 15px 15px;
+}
+.m-4{
+    margin: 20px 20px;
+}
+.btn{
+    text-transform: lowercase;
+    text-transform: capitalize;
+}
+body{
+    font-family: 'Lexend', sans-serif;
+}
+.divsection{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width:100%
+}
+.section{
+    max-width: 1440px; /* Establece el ancho máximo que desees */
+      width: 100%; /* Ocupa el 100% del ancho disponible */
+}
+nav{
+    box-shadow: none !important;
+    height:100px;
+}
+.margenreducido{
+    margin-left :10%;
+    margin-right :10%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
