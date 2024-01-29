@@ -119,7 +119,7 @@ include 'header.php';
             </div>
             <div class="row">
                 <div class="col m6 s12 p-4">
-                    <img src="img/alumnos.png" style="border-radius: 25px;">
+                    <img src="img/alumnos.png" style="border-radius: 25px;" width="90%">
                 </div>
                 <div class="col m6 s12 p-4 left-align">
                     <h4><b class="blue-text text-darken-4 ">Nuestros alumnos</b></h4>
@@ -138,28 +138,17 @@ include 'header.php';
                     </p>
                 </div>
                 <div class="col m6 s12 p-4">
-                    <img src="img/docentes.png" style="border-radius: 25px;">
+                    <img src="img/docentes.png" style="border-radius: 25px;" width="90%">
                 </div>
 
             </div>
         </div>
     </div>
 </div>
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-    <div class="modal-content center-align">
-        <h4>Información de Inscripciones</h4>
-        <p style="font-size:1.2em">Envía un correo a informacion@iineed.edu.mx indicando cual es la carrera en la que tienes interés y tu información de contacto<br>
-            <br>O puedes enviar un WhatsApp al número 614 12053 55.<br><br><br>
-            Nos comunicaremos contigo a la brevedad
-        </p>
-    </div>
-</div>
+
 
 <script>
-    $(document).ready(function() {
-        $('.modal').modal();
-    });
+  
 </script>
 <?php
 include 'footer.php';

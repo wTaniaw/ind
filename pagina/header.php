@@ -16,23 +16,32 @@
 </head>
 
 <body>
-
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content center-align">
+        <h4 class="amber-text text-darken-3">Información de Inscripciones</h4>
+        <p style="font-size:1.2em">Envía un correo a <b class="blue-text text-darken-4">informacion@iineed.edu.mx</b> indicando cual es el posgrado o diplomado en el que tienes interés y tu información de contacto<br>
+            <br>O puedes enviar un WhatsApp al número <b class="blue-text text-darken-4">614 12053 55</b>.<br><br><br>
+            Nos comunicaremos contigo a la brevedad
+        </p>
+    </div>
+</div>
     <nav>
         <div class="nav-wrapper white navbar-fixed z-depth-0">
-            <a href="#!" class="brand-logo black-text p-4 hide-on-med-and-up">
+            <a href="index.php" class="brand-logo black-text p-4 hide-on-med-and-up">
                 <img src="img/logo.png" width="200px">
             </a>
-            <a href="#!" class="brand-logo black-text p-4 hide-on-small-only " style="margin-left:10%">
+            <a href="index.php" class="brand-logo black-text p-4 hide-on-small-only " style="margin-left:10%">
                 <img src="img/logo.png" width="200px">
             </a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down p-4 " style="margin-right:10%">
-                <li><a href="posgrados.php" class="grey-text">Posgrados</a></li>
-                <li><a href="badges.html" class="grey-text">Diplomados</a></li>
-                <li><a href="collapsible.html" class="grey-text">Contacto</a></li>
-                <li><a href="mobile.html" class="grey-text">Blog</a></li>
+                <li><a href="posgrados.php" class="grey-text" id="posgrados">Posgrados</a></li>
+                <li><a href="diplomados.php" class="grey-text" id="diplomados">Diplomados</a></li>
+                <li><a href="contacto.php" class="grey-text" id="contacto">Contacto</a></li>
+                <li><a href="https://iineed.edu.mx/blog/" class="grey-text">Blog</a></li>
                 <li>
-                    <a href="mobile.html" class="btn white-text blue darken-4">
+                    <a href="https://iineed.edu.mx/aula/login/index.php" class="btn white-text blue darken-4">
                         Aula Virtual
                     </a>
                 </li>

@@ -53,7 +53,7 @@ include("header.php");
             </div>
             <div class="clearfix"> </div>
             <div class="w3layouts_mail_grid">
-                <form action="#" method="post">
+                <form action="pagina/enviarcorreo.php" method="post">
                     <div class="col-md-6 wthree_contact_left_grid">
                         <input type="text" name="Name" placeholder="Nombre" required="">
                         <input type="email" name="Email" placeholder="Correo" required="">

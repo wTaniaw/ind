@@ -6,15 +6,17 @@
 <br><br>
 <div class="divsection">
     <div class="row section p-4">
-        <div class="col m3 s12 left-text teal-text  text-lighten-3" style="font-size:1.em">
+        <div class="col m4 s12 left-align teal-text  text-lighten-3" style="font-size:1.em;">
             <img src="img/logo.png" width="200px"><br><br>
-            Calle Ernesto Talavera 1208.<br>
-            Col. Zarco. Chihuahua,
-            Chih, México
-            <br><br>
-            informacion@iineed.edu.mx
-            <br>
-            614 12053 55
+            <p >
+                Calle Ernesto Talavera 1208.<br>
+                Col. Zarco. Chihuahua,
+                Chih, México
+                <br><br>
+                informacion@iineed.edu.mx
+                <br>
+                614 12053 55
+            </p>
         </div>
         <div class="col m3 s12">
             <h5 class="blue-text text-darken-4">iineed</h5><br>
@@ -28,7 +30,7 @@
             <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Posgrados</a><br><br>
             <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Diplomados</a><br><br>
         </div>
-        <div class="col m3 s12">
+        <div class="col m2 s12">
             <h5 class="blue-text text-darken-4">Aula Virtual</h5><br>
             <button class="btn-large btn waves-effect white-text blue darken-4">Iniciar Sesión</button>
         </div>
@@ -43,6 +45,7 @@
 <script>
     $(document).ready(function() {
         $('.sidenav').sidenav();
+        $('.modal').modal();
     });
 </script>
 
