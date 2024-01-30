@@ -7,4 +7,5 @@
     $message = "Asunto: <br>".$_GET["asunto"]."<br><br>Nombre: ".$_GET["nombre"]."<br><br>Correo: ".$_GET["correo"]."<br><br>Mensaje: ".$_GET["mensaje"]."<br><br>";
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
+    
 ?>
