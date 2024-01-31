@@ -11,7 +11,7 @@ include "header.php";
     <div class="row section">
         <div class="col m12 s12  left-align">
             <h6><b class="amber-text text-darken-2">Diplomados</b></h6>
-            <h4><b>Inteligencia emocional<br>en el ámbito educativo</b></h4>
+            <h4><b>Gestión en Políticas Públicas<br></b></h4>
         </div>
     </div>
 </div>
@@ -22,15 +22,15 @@ include "header.php";
             <img src="img/01_diplomado.jpg" width="100%" style="border-radius:10px">
             <div class="left-align">
                 <h4 class="blue-text text-darken-4"><b>Propósito</b></h4>
-                <p>Los egresados conocen los principales enfoques en los que se fundamentan los modelos de inteligencia emocional y utilizan estrategias para favorecer el desarrollo de las habilidades socioemocionales en los ámbitos laboral y personal a través del autoconocimiento de las emociones, comprender las emociones, razonar emocionalmente y la habilidad para regularlas</p>
+                <p>Desarrollar una visión integral de la administración pública fin de proponer alternativas para generar una nueva gestión pública eficiente y eficaz a la vez que reconocer y utilizar herramientas para la rendición de cuentas y transparencia.</p>
             </div>
             <br>
             <div class="left-align">
                 <h4 class="blue-text text-darken-4"><b>Contenido</b></h4>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO I:</b> Neurociencia y aprendizaje.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO II:</b> Teorías y modelos de inteligencia emocional.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO III:</b> Conocimiento y regulación de las emociones.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO IV:</b> Competencias socioemocionales en la vida personal y profesional.<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD I:</b> Administración pública y reforma del estado<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD II:</b> Gerencia y toma de decisiones en el estado<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD III:</b> Planeación estratégica en el sector público <br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD IV:</b> Gestión pública por resultados<br>
 
             </div>
         </div>
@@ -38,7 +38,7 @@ include "header.php";
             <div style="overflow:hidden">
                 <div class="blue darken-4 white-text p-4" style="border-radius:10px;margin-bottom:15px">
                     <h4><b>Dirigido a</b></h4>
-                    Educadores, psicólogos, directivos, orientadores, coordinadores de RH y formadores en general
+                    Servidores públicos y estudiantes que desean profundizar en su formación en el diseño e implementación de políticas públicas y gestión gubernamental.
                 </div>
                 <div class="blue lighten-5 blue-text text-darken-4 p-4" style="border-radius:10px">
                     <h4><b>Duración</b></h4>

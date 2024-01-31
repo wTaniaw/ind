@@ -2,7 +2,7 @@
 include "header.php";
 ?>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function() {
         $("#posgrados").removeClass("grey-text");
         $("#posgrados").addClass("blue-text text-darken-4");
     });
@@ -20,16 +20,18 @@ include "header.php";
                 <br><br>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">¿Quién puede cursar la maestría?</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/perfil-egreso.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Perfil de egreso</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Plan de estudios</u> </h5>
-                </div>    
+                </div>
             </h4>
             <a href="docencia.php">
-                <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px"><h5>+ Quiero más información</h5></div>
+                <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px">
+                    <h5>+ Quiero más información</h5>
+                </div>
             </a>
         </div>
     </div>
@@ -44,15 +46,19 @@ include "header.php";
                 <br><br>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">¿Quién puede cursar la maestría?</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/perfil-egreso.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Perfil de egreso</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Plan de estudios</u> </h5>
-                </div>    
+                </div>
             </h4>
-            <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px"><h5>+ Quiero más información</h5></div>
+            <a href="psicologia.php">
+                <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px">
+                    <h5>+ Quiero más información</h5>
+                </div>
+            </a>
         </div>
         <div class="col m6 s12 p-3">
             <img src="img/psicologia.png" width="90%">
@@ -72,15 +78,19 @@ include "header.php";
                 <br><br>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">¿Quién puede cursar la maestría?</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/perfil-egreso.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Perfil de egreso</u> </h5>
-                </div>    
+                </div>
                 <div style="display:flex;justify-content: left;">
                     <h5 class="valign-wrapper"> <img src="img/cursar-maestria.png" width="50px" style="margin-right:10px"><u style="margin-right: 10px;">Plan de estudios</u> </h5>
-                </div>    
+                </div>
             </h4>
-            <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px"><h5>+ Quiero más información</h5></div>
+            <a href="politicas.php">
+                <div class="amber darken-4 white-text center-align col m10 s12 z-depth-5" style="padding:10px;border-radius:10px">
+                    <h5>+ Quiero más información</h5>
+                </div>
+            </a>
         </div>
     </div>
 </div>

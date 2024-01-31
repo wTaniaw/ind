@@ -11,7 +11,7 @@ include "header.php";
     <div class="row section">
         <div class="col m12 s12  left-align">
             <h6><b class="amber-text text-darken-2">Diplomados</b></h6>
-            <h4><b>Inteligencia emocional<br>en el ámbito educativo</b></h4>
+            <h4><b>Competencias Docentes<br></b></h4>
         </div>
     </div>
 </div>
@@ -22,15 +22,15 @@ include "header.php";
             <img src="img/01_diplomado.jpg" width="100%" style="border-radius:10px">
             <div class="left-align">
                 <h4 class="blue-text text-darken-4"><b>Propósito</b></h4>
-                <p>Los egresados conocen los principales enfoques en los que se fundamentan los modelos de inteligencia emocional y utilizan estrategias para favorecer el desarrollo de las habilidades socioemocionales en los ámbitos laboral y personal a través del autoconocimiento de las emociones, comprender las emociones, razonar emocionalmente y la habilidad para regularlas</p>
+                <p>Que los participantes cuenten con referentes teóricos y metodológicos para diseñar, desarrollar, implementar y mejorar planeaciones didácticas basadas en competencias alineadas al Marco Curricular Común y a los requerimientos del Examen de Competencias Docentes (ECODEMS) de CENEVAL.</p>
             </div>
             <br>
             <div class="left-align">
                 <h4 class="blue-text text-darken-4"><b>Contenido</b></h4>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO I:</b> Neurociencia y aprendizaje.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO II:</b> Teorías y modelos de inteligencia emocional.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO III:</b> Conocimiento y regulación de las emociones.<br>
-                <span class="green-text text-darken-3">✔</span> <b>MÓDULO IV:</b> Competencias socioemocionales en la vida personal y profesional.<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD I:</b> Normativa y enfoques de la Reforma Integral de Educación Media Superior (RIEMS).<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD II:</b> Modelo educativo basado en competencias.<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD III:</b> Planeación didáctica.<br>
+                <span class="green-text text-darken-3">✔</span> <b>UNIDAD IV:</b> Evaluación basada en competencias.<br>
 
             </div>
         </div>
@@ -38,7 +38,7 @@ include "header.php";
             <div style="overflow:hidden">
                 <div class="blue darken-4 white-text p-4" style="border-radius:10px;margin-bottom:15px">
                     <h4><b>Dirigido a</b></h4>
-                    Educadores, psicólogos, directivos, orientadores, coordinadores de RH y formadores en general
+                    Planifica y desarrolla los procesos de enseñanza y aprendizaje con base al enfoque de educación basada en competencias con base en principios del constructivismo proponiendo de aprendizaje cooperativo y grupal.
                 </div>
                 <div class="blue lighten-5 blue-text text-darken-4 p-4" style="border-radius:10px">
                     <h4><b>Duración</b></h4>

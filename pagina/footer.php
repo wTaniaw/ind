@@ -8,7 +8,7 @@
     <div class="row section p-4">
         <div class="col m4 s12 left-align teal-text  text-lighten-3" style="font-size:1.em;">
             <img src="img/logo.png" width="200px"><br><br>
-            <p >
+            <p>
                 Calle Ernesto Talavera 1208.<br>
                 Col. Zarco. Chihuahua,
                 Chih, México
@@ -32,7 +32,7 @@
         </div>
         <div class="col m2 s12">
             <h5 class="blue-text text-darken-4">Aula Virtual</h5><br>
-            <button class="btn-large btn waves-effect white-text blue darken-4">Iniciar Sesión</button>
+            <button onclick="location.href ='https://iineed.edu.mx/aula/login/index.php';" class="btn-large btn waves-effect white-text blue darken-4">Iniciar Sesión</button>
         </div>
     </div>
 </div>
