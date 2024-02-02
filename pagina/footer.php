@@ -20,15 +20,15 @@
         </div>
         <div class="col m3 s12">
             <h5 class="blue-text text-darken-4">iineed</h5><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">¿Quiénes somos?</a><br><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Testimonios</a><br><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Contacto</a><br><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Blog</a><br><br>
+            <a href="index.php#quienessomos" style="font-size:1.1em" class="teal-text text-lighten-3">¿Quiénes somos?</a><br><br>
+            <a href="contacto.php#testimonios" style="font-size:1.1em" class="teal-text text-lighten-3">Testimonios</a><br><br>
+            <a href="contacto.php" style="font-size:1.1em" class="teal-text text-lighten-3">Contacto</a><br><br>
+            <a href="https://iineed.edu.mx/blog/" style="font-size:1.1em" class="teal-text text-lighten-3">Blog</a><br><br>
         </div>
         <div class="col m3 s12">
             <h5 class="blue-text text-darken-4">Estudios</h5><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Posgrados</a><br><br>
-            <a href="" style="font-size:1.1em" class="teal-text text-lighten-3">Diplomados</a><br><br>
+            <a href="posgrados.php" style="font-size:1.1em" class="teal-text text-lighten-3">Posgrados</a><br><br>
+            <a href="diplomados.php" style="font-size:1.1em" class="teal-text text-lighten-3">Diplomados</a><br><br>
         </div>
         <div class="col m2 s12">
             <h5 class="blue-text text-darken-4">Aula Virtual</h5><br>
@@ -46,6 +46,7 @@
     $(document).ready(function() {
         $('.sidenav').sidenav();
         $('.modal').modal();
+        $('.fixed-action-btn').floatingActionButton();
     });
 </script>
 

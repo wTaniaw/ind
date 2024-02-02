@@ -10,6 +10,7 @@
     <!--Import materialize.css--> <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/logo3.png">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
@@ -21,7 +22,7 @@
     <div class="modal-content center-align">
         <h4 class="amber-text text-darken-3">Información de Inscripciones</h4>
         <p style="font-size:1.2em">Envía un correo a <b class="blue-text text-darken-4">informacion@iineed.edu.mx</b> indicando cual es el posgrado o diplomado en el que tienes interés y tu información de contacto<br>
-            <br>O puedes enviar un WhatsApp al número <b class="blue-text text-darken-4">614 12053 55</b>.<br><br><br>
+            <br>O puedes enviar un WhatsApp al número <b class="blue-text text-darken-4"><a target="_blank" href="https://wa.me/526141205355?text=¡Hola!%20Me%20gustaría%20solicitar%20información">614 12053 55</a></b>.<br><br><br>
             Nos comunicaremos contigo a la brevedad
         </p>
     </div>
@@ -55,3 +56,8 @@
         <li><a href="collapsible.html" class="black-text">Contacto</a></li>
         <li><a href="mobile.html" class="black-text">Blog</a></li>
     </ul>
+    <div class="fixed-action-btn">
+  <a href="https://wa.me/526141205355?text=¡Hola!%20Me%20gustaría%20solicitar%20información" target="_blank" class="btn-floating btn-large white">
+    <img src="img/whatsapp.png" width="100%">
+  </a>
+</div>

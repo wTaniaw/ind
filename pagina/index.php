@@ -61,7 +61,7 @@ include 'header.php';
         </div>
     </div>
 </div>
-<div class="divsection">
+<div class="divsection" id="quienessomos">
     <div class="row section p-4">
 
         <div class="col m6 s12 left-align">
