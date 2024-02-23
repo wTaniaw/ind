@@ -34,7 +34,7 @@ include 'header.php';
                         <p style="font-size:1.1em;height:280px;overflow:auto" class="p-4" align="center">
                             Formamos profesionales de la educación con alto grado de competencia capaces de entender la complejidad de la práctica docente con base en teorías de aprendizaje y mediante el uso de modelos pedagógicos así como de diseñar, ejecutar y evaluar estrategias de enseñanza que impactan de manera favorable el aprendizaje de sus alumnos y su desarrollo socioemocional.
                         </p>
-                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em">+ Consulta el plan de estudios</div>
+                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em"><a href="docencia.php" class="white-text">+ Consulta el plan de estudios</a></div>
                     </div>
                 </div>
                 <div class="col m4 s12 center-align p-4">
@@ -44,7 +44,7 @@ include 'header.php';
                         <p style="font-size:1.1em;height:280px;overflow:auto" class="p-4" align="center">
                             Favorecemos la creación de culturas inclusivas en las instituciones educativas. Facultamos a las y los docentes para que cuenten con elementos para diagnósticar, proponer o desarrollar adecuaciones o intervenciones relacionadas con problemas de aprendizaje o de la conducta individual.
                         </p>
-                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em">+ Consulta el plan de estudios</div>
+                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em"><a href="psicologia.php" class="white-text">+ Consulta el plan de estudios</a></div>
                     </div>
                 </div>
                 <div class="col m4 s12 center-align p-4">
@@ -54,7 +54,7 @@ include 'header.php';
                         <p style="font-size:1.1em;height:280px;overflow:auto" class="p-4" align="center">
                             Proveemos una formación interdisciplinaria para el diseño, implementación y evaluación de políticas públicas a fin de mejorar la calidad de los bienes públicos que provee el Estado en marco de transparencia y rendición de cuentas a la sociedad.
                         </p>
-                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em">+ Consulta el plan de estudios</div>
+                        <div class="amber darken-4 white-text p-3" style="border-radius:5px;font-size:1.25em"><a href="politicas.php" class="white-text">+ Consulta el plan de estudios</a></div>
                     </div>
                 </div>
             </div>
@@ -98,9 +98,14 @@ include 'header.php';
 </div>
 <div class="row blue darken-4 white-text p-4">
     <div class="p-4 m-4 col m12 s12  center-align">
-        <h5 class="p-4">
+        <h6 class="hide-on-med-and-up">
+            <p style="line-height:30px;letter-spacing: .8px">
+                Las personas que participan en su formación y actualización académica mediante los programas de esta institución experimentan procesos de aprendizaje sumamente innovadores, activos y agradables que aportan valor a su práctica profesional y les generan experiencias enriquecedoras y diferentes a cualquier otra propuesta educativa.
+            </p>
+        </h6>
+        <h5 class="p-4 hide-on-small-only">
             <b class="p-4">
-                <p style="line-height:40px;letter-spacing: 1.5px" class="p-4">
+                <p style="line-height:30px;letter-spacing: .8px">
                     Las personas que participan en su formación y actualización académica mediante los programas de esta institución experimentan procesos de aprendizaje sumamente innovadores, activos y agradables que aportan valor a su práctica profesional y les generan experiencias enriquecedoras y diferentes a cualquier otra propuesta educativa.
                 </p>
             </b>
@@ -148,7 +153,7 @@ include 'header.php';
 
 
 <script>
-  
+
 </script>
 <?php
 include 'footer.php';
